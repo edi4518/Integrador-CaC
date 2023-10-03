@@ -1,0 +1,13 @@
+.logo--img{
+    width: 90px;
+    height: 70px;
+    margin-left: 3rem;
+}
+
+.link-compra{
+    color: rgb(0, 188, 0);
+}
+
+.link-compra:hover{
+    color: rgba(0, 255, 0, 0.431);
+}
