@@ -67,7 +67,7 @@
         class="carousel slide position-relative d-flex align-items-center justify-content-end"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
+        <div class="carousel-inner carrusel">
           <div class="carousel-item active">
             <img
               src="img/ba1.jpg"
@@ -93,7 +93,7 @@
         <div class="position-absolute text-end col-md-6 col-12 text-light px-5">
           <div class="d-none d-md-block pt-5 mt-5">
             <h1>Conf Bs As</h1>
-            <p>
+            <p class="fw-bold">
               Bs As llega por primera vez a Argentina. Un evento para compartir
               con nuestra comunidad el conocimiento y experiencia de los
               expertos que están creando el futuro de Internet. Ven a conocer a
@@ -125,65 +125,200 @@
         </div>
       </div>
       <!---->
-      
-      <section class="card-group justify-content-evenly">
-        <div class="row text-center">
-          <div class="col-4">
-            <div class="card" style="width: 18rem">
+      <section>
+        <h2 class="text-center text-uppercase">
+          <span class="fs-6 fw-normal">Conoce a los</span><br />
+          Oradores
+        </h2>
+      </section>
+      <section class="card-group row">
+        <div class="row justify-content-center">
+          <div class="col-lg-3">
+            <div class="card h-100" style="width: 18rem">
               <img
                 src="img/steve.jpg"
                 class="card-img-top"
                 alt="Foto de Steve Jobs"
               />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+              <div class="card-body text-start">
+                <div class="contenedor-lenguajes">
+                  <a href="#" class="btn btn-warning fw-bold lenguajes"
+                    >JavaScript</a
+                  >
+                  <a
+                    href="#"
+                    class="btn btn-primary fw-bold text-white lenguajes"
+                    >React</a
+                  >
+                </div>
+
+                <h5 class="card-title text-start">Steve Jobs</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Delectus quisquam dolorum accusamus dicta necessitatibus neque
+                  ullam dolores id, voluptatum natus!
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card" style="width: 18rem">
+          <div class="col-lg-3">
+            <div class="card h-100" style="width: 18rem">
               <img
                 src="img/bill.jpg"
                 class="card-img-top"
                 alt="Foto de Bill Gates"
               />
+
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <div class="contenedor-lenguajes">
+                  <a href="#" class="btn btn-warning fw-bold lenguajes"
+                    >JavaScript</a
+                  >
+                  <a
+                    href="#"
+                    class="btn btn-primary fw-bold text-white lenguajes"
+                    >React</a
+                  >
+                </div>
+                <h5 class="card-title text-start">Bill Gates</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                  nisi quis impedit consectetur consequuntur ducimus repellat
+                  perferendis accusantium itaque sed!
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card" style="width: 18rem">
+          <div class="col-lg-3">
+            <div class="card h-100" style="width: 18rem">
               <img
                 src="img/ada.jpeg"
                 class="card-img-top"
                 alt="Foto de Ada Lovelace"
               />
+
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <div class="contenedor-lenguajes">
+                  <a href="#" class="btn btn-secondary fw-bold lenguajes"
+                    >Negocios</a
+                  >
+                  <a
+                    href="#"
+                    class="btn btn-danger fw-bold text-white lenguajes"
+                    >Startups</a
+                  >
+                </div>
+                <h5 class="card-title text-start">Ada Lovelace</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  maiores eligendi sequi, quis assumenda dignissimos dicta
+                  veniam saepe beatae animi!
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section
+        class="container-fluid p-0 d-flex gap-1 text-white mt-4 align-items-stretch"
+      >
+        <div class="col-6">
+          <img
+            src="img/honolulu.jpg"
+            class="img-seccion3"
+            alt="Honolulu foto paisaje"
+          />
+        </div>
+        <div class="col-6 bg-dark p-3">
+          <h3>Bs. As. - Octubre</h3>
+          <p class="parrafo-seccion3 fw-light">
+            Buenos Aires es la provincia y la localidad más grande del estado de
+            Argentina, en los estados Unidos, Honolulu es la mas sureña de entre
+            los principales ciudades estadounidenses. Aunque el nombre de
+            Honolulu se refiere al área urbana en la costa sereste de la isla de
+            Oahu , la ciudad y el condado de Honolulu han formado una
+            ciudad-condado consolidada que cubre toda la ciudad (aproximadamente
+            600 km<sup>2</sup> de superficie)
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-light fw-light"
+            id="btn-conocer"
+          >
+            Conocer más
+          </button>
+        </div>
+      </section>
+
+      <section class="container-fluid w-50">
+        <h3 class="text-center text-uppercase">
+          <span class="fs-6 fw-normal">Conviertete en</span><br />
+          Orador
+        </h3>
+        <p class="text-center">
+          Anotate como orador para dar una
+          <span class="texto-h3">charla ignite</span>. Cuentanos de que quieres
+          hablar!
+        </p>
+        <form action="">
+          <div class="mb-3 d-flex">
+            <input
+              type="text"
+              class="form-control border-secondary input-texto"
+              id="nombre"
+              placeholder="Nombre"
+            />
+            <input
+              type="text"
+              class="form-control border-secondary input-texto"
+              id="apellido"
+              placeholder="Apellido"
+            />
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control border-secondary input-textarea"
+              id="textarea"
+              rows="3"
+              cols="5"
+              placeholder="Sobre qué quieres hablar?"
+            ></textarea>
+            <p class="texto-area">Recuarda incluir un título para tu charla</p>
+          </div>
+
+          <button type="button" class="btn btn-success boton-enviar">
+            Success
+          </button>
+        </form>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="container-fluid d-flex justify-content-center mt-3">
+      <div class="row text-center w-75 py-3 text-white align-items-center">
+        <div class="col">
+          <a href="#" class="enlaces-footer"><p>Preguntas frecuentes</p></a>
+        </div>
+        <div class="col">
+          <a href="#" class="enlaces-footer"><p>Contactanos</p></a>
+        </div>
+        <div class="col">
+          <a href="#" class="enlaces-footer"><p>Prensa</p></a>
+        </div>
+        <div class="col">
+          <a href="#" class="enlaces-footer"><p>Conferencias</p></a>
+        </div>
+        <div class="col">
+          <a href="#" class="enlaces-footer"><p>Terminos y condiciones</p></a>
+        </div>
+        <div class="col">
+          <a href="#" class="enlaces-footer"><p>Privacidad</p></a>
+        </div>
+        <div class="col">
+          <a href="#" class="enlaces-footer"><p>Estudiantes</p></a>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

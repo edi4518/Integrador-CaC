@@ -1,3 +1,5 @@
+
+
 .logo--img{
     width: 90px;
     height: 70px;
@@ -10,4 +12,89 @@
 
 .link-compra:hover{
     color: rgba(0, 255, 0, 0.431);
+}
+
+
+.lenguajes{
+    font-size: .8rem;
+    font-weight: bolder;
+    padding: .2rem .3rem;
+}
+
+.contenedor-lenguajes{
+    display: flex;
+    justify-content: start;
+    gap: 4px;
+    margin-bottom: .4rem;
+
+}
+
+.carrusel{
+    filter: brightness(.5);
+}
+
+.seccion3{
+   height: 40vh;
+   width: 100vw;
+  
+}
+
+.img-seccion3{
+    width: 100%;
+  
+}
+
+#btn-conocer{
+    font-size: .8rem;
+    padding: .2rem .4rem;
+    border-radius: 3px;
+
+}
+
+.parrafo-seccion3{
+    font-size: .9rem;
+}
+
+.texto-h3{
+    border-bottom: 2px dotted black;
+    
+}
+
+.boton-enviar{
+    background-color: rgba(150,201,62,255);
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 100%;
+}
+
+.input-texto{
+    width: 48%;
+    margin: 0 .4rem;
+}
+
+.input-textarea{
+    width: 98%;
+    margin: auto;
+    resize: none;
+}
+.texto-area{
+    font-size: 1rem;
+   
+ 
+    color: rgb(120, 120, 120);
+    margin-left: .3rem;
+    
+    
+}
+
+footer{
+    height: 8vh;
+    background: linear-gradient(90deg, rgba(29,57,71,255),rgba(30,81,110,255));
+    height: 100%;
+}
+
+.enlaces-footer{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
 }
