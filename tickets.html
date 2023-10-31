@@ -113,12 +113,14 @@
               class="form-control border-secondary input-texto"
               id="nombre"
               placeholder="Nombre"
+              required
             />
             <input
               type="text"
               class="form-control border-secondary input-texto"
               id="apellido"
               placeholder="Apellido"
+              required
             />
           </div>
           <div class="d-flex justify-content-center">
@@ -127,6 +129,7 @@
           class="form-control border-secondary input-correo justify-content-center"
           id="email"
           placeholder="Correo"
+          required
         />
       </div>
       </div>
@@ -134,36 +137,36 @@
             <div class="contenedor contenedor-cantidad">
               <label for="cantidad">Cantidad</label>
             <input
-              type="text"
+              type="number"
               class="form-control border-secondary"
               id="cantidad"
               placeholder="cantidad"
+              required
             />
           </div>
             <div class="contenedor contenedor-categoria">
               <label for="categoria">Categoria</label>
             <select class="form-select input-select" aria-label="Default select example" id="categoria">
-              <option selected>Elija una categoria...</option>
-              <option value="1">Estudiante</option>
-              <option value="2">Trainee</option>
-              <option value="3">Junior</option>
+              <option value="Estudiante" selected>Estudiante</option>
+              <option value="Trainee">Trainee</option>
+              <option value="Junior">Junior</option>
             </select>
           </div>
           </div>
 
           <div class="contenedor contenedor-total">
             <p class="p-totalPagar">Total a pagar $ 
-              <span>
+              <span id="resumenTotal">0
                 <!-- Aca se ingresa texto por js -->
               </span>
             </p>
           </div>
 
           <div class="contenedor-botones d-flex gap-2 text-center mx-auto">
-            <button type="button" class="btn btn-success boton-enviar">
+            <button type="button" id="boton_borrar" class="btn btn-success boton_enviar">
             Borrar
           </button>
-          <button type="button" class="btn btn-success boton-enviar">
+          <button type="button" id="boton_enviar" class="btn btn-success boton_enviar">
             Resumen
           </button>
         </div>
