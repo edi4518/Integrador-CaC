@@ -33,8 +33,8 @@ function calcularTotal() {
       montoTotal = junior * cantidadTickets; // Precio para juniors
     }
 
-    //Se actualiza el elemento "totalAPagar" con el monto total
-    resumnenTotal.textContent = `$${montoTotal}`;
+    //Se actualiza el elemento "resumenTotal" con el monto total
+    resumnenTotal.textContent = `${montoTotal}`;
   } else {
     alert("Ingrese los campos requeridos");
   }
@@ -55,6 +55,7 @@ function obtenerCantidadTickets() {
   return cantidadTotal;
 }
 
+// Funcion para limpiar los campos del formulario
 function borrarDatos() {
   let nombre = document.getElementById("nombre");
   let apellido = document.getElementById("apellido");
