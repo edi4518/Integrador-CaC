@@ -92,6 +92,12 @@
     
 }
 
+
+.link-backoffice{
+    color: #dbdb00a8;
+
+}
+
 footer{
     height: 8vh;
     background: linear-gradient(90deg, rgba(29,57,71,255),rgba(30,81,110,255));
